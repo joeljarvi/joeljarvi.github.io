@@ -55,16 +55,14 @@
 .ticker-wrap .ticker__item {
   display: inline-block;
   padding: 0 2rem;
-  font-size: 3.2vw;
+  font-size: 3.8vw;
   color: BLACK;
     
 }
 
 body {
   background-color: rgb(192,192,192);
-  background-image: url('../assets/element_thick4.svg');
-  background-position: bottom;
-      background-size: 200%;
+
   
 }
 
@@ -99,7 +97,7 @@ experiment {
   font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 3.7vw;
+  font-size: 4.2vw;
 }
 
 
@@ -193,7 +191,7 @@ color: black;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.0vw;
+  font-size: 4.2vw;
 
  }
 
@@ -254,7 +252,7 @@ color: black;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.0vw;
+  font-size: 4.2vw;
 
  }
 
@@ -314,7 +312,7 @@ color: black;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.0vw;
+  font-size: 4.2vw;
 
  }
 
@@ -375,7 +373,7 @@ color: black;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.0vw;
+  font-size: 4.2vw;
 
  }
 
@@ -391,7 +389,7 @@ color: black;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.0vw;
+  font-size: 4.2vw;
   color: rgb(0,0,255)
 
 
