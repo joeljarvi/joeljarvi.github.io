@@ -55,20 +55,20 @@
 .ticker-wrap .ticker__item {
   display: inline-block;
   padding: 0 2rem;
-  font-size: 3.8vw;
+  font-size: 42pt;
   color: BLACK;
     
 }
 
 body {
-  background-color: rgb(192,192,192);
+  /*background-color: rgb(192,192,192);*/
 
   
 }
 
 h1, h2, p {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
   padding-top: 0%; 
   padding-bottom: 0%;  
 }
@@ -81,7 +81,7 @@ experiment {
     z-index: -5;
   top: 0px;
   width: 1920px;
-  height: 70%;
+  height: 100%;
     
     }
 
@@ -100,6 +100,15 @@ experiment {
   font-size: 4.2vw;
 }
 
+.contact {
+  position: relative;
+  width: 100%;
+
+  font-family: 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.2vw;
+}
 
 
 
@@ -378,14 +387,15 @@ color: black;
  }
 
 
+
       
 
 .studies {
   position: relative;
   margin-left: 0;
   width: 100%;
-  background-color: black;
-    padding-top: 20px;
+  
+    padding-top: 0px;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
