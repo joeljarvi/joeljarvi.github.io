@@ -1,89 +1,26 @@
 
 
-@-webkit-keyframes ticker {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-@keyframes ticker {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-.ticker-wrap {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  height: 4rem;
-  
-  box-sizing: content-box;
-}
-.ticker-wrap .ticker {
-  display: inline-block;
-  height: 4rem;
-  line-height: 4rem;
-  white-space: nowrap;
-  padding-right: 100%;
-  box-sizing: content-box;
-  font-family: 'Space Mono', monospace;
-  font-style: normal;
-  font-weight: normal;
-    
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-name: ticker;
-  animation-name: ticker;
-  -webkit-animation-duration: 60s;
-  animation-duration: 60s;
-}
-.ticker-wrap .ticker__item {
-  display: inline-block;
-  padding: 0 2rem;
-  font-size: 42pt;
-  color: BLACK;
-    
-}
-
 body {
-  /*background-color: rgb(192,192,192);*/
+ 
+cursor: url(../assets/joel3_riktigtliten.png), auto;
 
-  
+   
 }
+
+
 
 h1, h2, p {
-  padding-left: 0%;
-  padding-right: 0%;
-  padding-top: 0%; 
-  padding-bottom: 0%;  
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -10px; 
+  margin-bottom: -5px;
+    text-align: left;
+
+    
 }
 
 
 
-
-experiment {
-  position: relative;
-    z-index: -5;
-  top: 0px;
-  width: 1920px;
-  height: 100%;
-    
-    }
 
 
 
@@ -92,24 +29,19 @@ experiment {
 .container {
   position: relative;
   width: 100%;
- 
-  background-size: 100%, 100%
-  font-family: 'Times New Roman', serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 4.2vw;
+font-family: Times serif;
+  font-size: 7.2vw;
+  color:rgb(255,0,0)
+  
 }
 
-.contact {
-  position: relative;
+
+
+
+.responsive {
   width: 100%;
-
-  font-family: 'Times New Roman', serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 4.2vw;
+  height: auto;
 }
-
 
 
 
@@ -119,7 +51,7 @@ experiment {
 
 a:link{
 
-color: black;
+color: rgb(255,0,0);
 
 text-decoration: underline;
 
@@ -127,14 +59,14 @@ text-decoration: underline;
 
 a:visited {
 
-color: black;
+color: rgb(255,0,0);
 
 }
 
 a:hover {
 
 text-decoration: underline;
-    color: rgb(0,0,255);
+    color: rgb(255,0,0);
 
 }
 
@@ -144,53 +76,7 @@ color: black;
 
 }
 
-#slider-internship {
-	overflow: hidden;
-}
-#slider-internship figure {
-	position: relative;
-	width: 500%;
-	margin: 0;
-	left: 0;
-	animation: 20s slider infinite;
-}
-#slider-internship figure img {
-	width: 20%;
-	float: left;
-}
 
-@keyframes slider {
-	0% {
-		left: 0;
-	}
-	20% {
-		left: 0;
-	}
-	25% {
-		left: -100%;
-	}
-	45% {
-		left: -100%;
-	}
-	50% {
-		left: -200%;
-	}
-	70% {
-		left: -200%;
-	}
-	75% {
-		left: -300%;
-	}
-	95% {
-		left: -300%;
-	}
-	100% {
-		left: -400%;
-	}
-}
-
-
-}
 
 
 .container {
@@ -200,59 +86,12 @@ color: black;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.2vw;
+  font-size: 7.2vw;
 
  }
 
 
 
-#slider-exhibition {
-	overflow: hidden;
-}
-#slider-exhibition figure {
-	position: relative;
-    width: 500%;
-	margin: 0;
-	left: 0;
-	animation: 20s slider infinite;
-}
-#slider-exhibition figure img {
-	width: 20%;
-	float: left;
-}
-
-@keyframes slider {
-	0% {
-		left: 0;
-	}
-	20% {
-		left: 0;
-	}
-	25% {
-		left: -100%;
-	}
-	45% {
-		left: -100%;
-	}
-	50% {
-		left: -200%;
-	}
-	70% {
-		left: -200%;
-	}
-	75% {
-		left: -300%;
-	}
-	95% {
-		left: -300%;
-	}
-	100% {
-		left: -400%;
-	}
-}
-
-
-}
 
 .container {
   position: relative;
@@ -261,116 +100,27 @@ color: black;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.2vw;
-
- }
-
-
-#slider-editorial {
-	overflow: hidden;
-}
-#slider-editorial figure {
-	position: relative;
-    width: 500%;
-	margin: 0;
-	left: 0;
-	animation: 20s slider infinite;
-}
-#slider-editorial figure img {
-	width: 20%;
-	float: left;
-}
-
-@keyframes slider {
-	0% {
-		left: 0;
-	}
-	20% {
-		left: 0;
-	}
-	25% {
-		left: -100%;
-	}
-	45% {
-		left: -100%;
-	}
-	50% {
-		left: -200%;
-	}
-	70% {
-		left: -200%;
-	}
-	75% {
-		left: -300%;
-	}
-	95% {
-		left: -300%;
-	}
-	100% {
-		left: -400%;
-	}
-}
-
-
-}
-
-.container {
-  position: relative;
-  margin-left: 0;
-  width: 100%;
-  font-family: Times serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 4.2vw;
+  font-size: 7.2vw;
 
  }
 
 
 
-#slider-palmemordet {
-	overflow: hidden;
-}
-#slider-palmemordet figure {
-	position: relative;
-    width: 500%;
-	margin: 0;
-	left: 0;
-	animation: 20s slider infinite;
-}
-#slider-palmemordet figure img {
-	width: 20%;
-	float: left;
+
 }
 
-@keyframes slider {
-	0% {
-		left: 0;
-	}
-	20% {
-		left: 0;
-	}
-	25% {
-		left: -100%;
-	}
-	45% {
-		left: -100%;
-	}
-	50% {
-		left: -200%;
-	}
-	70% {
-		left: -200%;
-	}
-	75% {
-		left: -300%;
-	}
-	95% {
-		left: -300%;
-	}
-	100% {
-		left: -400%;
-	}
-}
+.container {
+  position: relative;
+  margin-left: 0;
+  width: 100%;
+  font-family: Times serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7.2vw;
+
+ }
+
+
 
 
 }
@@ -382,7 +132,7 @@ color: black;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.2vw;
+  font-size: 7.2vw;
 
  }
 
@@ -399,7 +149,7 @@ color: black;
   font-family: Times serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.2vw;
+  font-size: 7.2vw;
   color: rgb(0,0,255)
 
 
