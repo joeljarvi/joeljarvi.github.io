@@ -3,13 +3,16 @@
 body {
  
 cursor: url(../assets/joel3_riktigtliten.png), auto;
-
+background-color: rgb(192,192,192)
    
 }
 
 
 
+
+
  p {
+font-family: 'times_new_romanregular';  
   margin-left: 0px;
   margin-right: 0px;
   margin-top: -25px; 
@@ -25,7 +28,7 @@ cursor: url(../assets/joel3_riktigtliten.png), auto;
 .info {
   position: relative;
   width: 100%;
-font-family: Times serif;
+font-family: 'times_new_romanregular';
   font-size: 7.2vw;
   color:rgb(255,0,0)
   
@@ -37,7 +40,7 @@ font-family: Times serif;
 .container {
   position: relative;
   width: 100%;
-font-family: Times serif;
+font-family: 'times_new_romanregular';
   font-size: 7.2vw;
   color:rgb(255,0,0)
   
@@ -126,7 +129,7 @@ color: black;
   position: relative;
   margin-left: 0;
   width: 100%;
-  font-family: Times serif;
+  font-family: 'times_new_romanregular';
   font-style: normal;
   font-weight: normal;
   font-size: 7.2vw;
@@ -142,7 +145,7 @@ color: black;
   position: relative;
   margin-left: 0;
   width: 100%;
-  font-family: Times serif;
+  font-family: 'times_new_romanregular';
   font-style: normal;
   font-weight: normal;
   font-size: 7.2vw;
@@ -158,8 +161,8 @@ color: black;
   margin-left: 0;
   width: 100%;
   
-    padding-top: 0px;
-  font-family: Times serif;
+padding-top: 0px;
+  font-family: 'times_new_romanregular';
   font-style: normal;
   font-weight: normal;
   font-size: 7.2vw;
