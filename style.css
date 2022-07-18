@@ -37,7 +37,7 @@
 body {
     
   height: 100%;
-
+background-color: #FFFFBA;
  
 /*cursor: url(../assets/joel3_riktigtliten.png), auto;
 background-color: white;*/
@@ -59,10 +59,12 @@ header nav {
   font-size: 8vw;
   font-weight: normal;
   margin: 0px;
-  
   line-height: 1;
   display: table;
   max-width: 18ch;
+  
+   
+ 
     }
 
 h3,
@@ -73,6 +75,7 @@ header nav {
   line-height: 1;
   display: inline-block;
   max-width: 18ch;
+    
     }
 
 
@@ -80,7 +83,8 @@ header nav {
 h1:hover,
 h2:hover,
 nav:hover {
-  font-weight: bold;    
+  font-weight: bold;  
+   
 }
 
 img,
@@ -117,6 +121,7 @@ header.about,
 header.text {
   position: initial;
   display: block;
+     filter: drop-shadow(1px 1px 1px #000000);
 }
 
 header.about nav,
@@ -139,7 +144,9 @@ main {
 
 .projects h2 {
   font-family: PIXELATED;
+    
   display: inline;
+    
 }
 
 
@@ -167,7 +174,7 @@ main {
 }
 
 .projects img.s {
-  width: 15%;
+  width: 60%;
     
 }
 
@@ -264,7 +271,7 @@ footer {
   
   font-family: "PIXELATED";
   width: 100%;
-    background-color: #FFFFFF;
+    background-color: #C0C0C0;
   z-index: 2;
     
 }
